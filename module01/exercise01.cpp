@@ -14,6 +14,7 @@ void task1(int task_data){
 
 // Process -> Memory [text: main, fun, gun, data: x, y,  , stack: z,p , heap: *p, new/delete]
 // Thread  -> Memory [                                     stack: ]
+// 1. thread's task: global c-like function
 int main() {
     int z = 108;
     static int y = 549;

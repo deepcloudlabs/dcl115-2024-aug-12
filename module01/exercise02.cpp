@@ -2,17 +2,13 @@
 #include <thread>
 using namespace std;
 
-void fun() {}
-
-void gun() {}
-
-int x = 42;
-
 struct task {
     void operator()(int task_data){
         cout << "task1 is running and using task data: " << task_data << endl;
     }
 };
+
+// 2. thread's task: functor: struct + operator()
 
 int main() {
    std::cout << "Application is just started: " << std::endl;
