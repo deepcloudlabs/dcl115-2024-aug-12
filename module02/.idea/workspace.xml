@@ -25,46 +25,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a172d52e-7636-48ee-8668-891f99d8ade3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f3b41a5d3a7a90745f8b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T12-14-12-0324.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/.cmake/api/v1/reply/target-exercise04-Debug-c36b5c3d88c0d2b5c583.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/.cmake/api/v1/reply/target-exercise05-Debug-3261d68aa0ae66d4c3d8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/.cmake/api/v1/reply/target-exercise06-Debug-ab71efbc20665bf6ac37.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise04.dir/CXX.dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise04.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise04.dir/CXXModules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.obj.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.obj.ddi.i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.obj.modmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise05.dir/CXX.dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise05.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise05.dir/CXXModules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.obj.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.obj.ddi.i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.obj.modmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise06.dir/CXX.dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise06.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise06.dir/CXXModules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise06.dir/exercise06.cpp.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise06.dir/exercise06.cpp.obj.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise06.dir/exercise06.cpp.obj.ddi.i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/exercise06.dir/exercise06.cpp.obj.modmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/exercise04.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/exercise05.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module04/exercise06.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-50ec36420cf41e64f55a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T11-29-54-0382.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module04/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +133,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723461239360</updated>
-      <workItem from="1723461240821" duration="6180000" />
+      <workItem from="1723461240821" duration="6184000" />
     </task>
     <servers />
   </component>

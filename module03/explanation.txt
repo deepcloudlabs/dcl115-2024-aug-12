@@ -29,3 +29,5 @@ https://en.wikipedia.org/wiki/Dining_philosophers_problem
 deadlock
 starvation
 liveliness -> responsive, throughput
+
+3) Atomic Variables
