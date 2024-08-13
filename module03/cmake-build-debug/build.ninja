@@ -128,6 +128,50 @@ build exercise02.exe: CXX_EXECUTABLE_LINKER__exercise02_Debug CMakeFiles/exercis
   TARGET_IMPLIB = libexercise02.dll.a
   TARGET_PDB = exercise02.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target exercise03
+
+
+#############################################
+# Order-only phony target for exercise03
+
+build cmake_object_order_depends_target_exercise03: phony || CMakeFiles/exercise03.dir
+
+build CMakeFiles/exercise03.dir/exercise03.cpp.obj.ddi: CXX_SCAN__exercise03_Debug C$:/var/workspace/github/dcl115-2024-aug-12/module03/exercise03.cpp || cmake_object_order_depends_target_exercise03
+  DEP_FILE = CMakeFiles\exercise03.dir\exercise03.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\exercise03.dir\exercise03.cpp.obj.ddi
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJ_FILE = CMakeFiles\exercise03.dir\exercise03.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\exercise03.dir\exercise03.cpp.obj.ddi.i
+
+build CMakeFiles/exercise03.dir/exercise03.cpp.obj: CXX_COMPILER__exercise03_scanned_Debug C$:/var/workspace/github/dcl115-2024-aug-12/module03/exercise03.cpp | CMakeFiles/exercise03.dir/exercise03.cpp.obj.modmap || cmake_object_order_depends_target_exercise03 CMakeFiles/exercise03.dir/CXX.dd
+  DEP_FILE = CMakeFiles\exercise03.dir\exercise03.cpp.obj.d
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\exercise03.dir\exercise03.cpp.obj.modmap
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\exercise03.dir
+  OBJECT_FILE_DIR = CMakeFiles\exercise03.dir
+  dyndep = CMakeFiles/exercise03.dir/CXX.dd
+
+build CMakeFiles/exercise03.dir/CXX.dd | C$:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise03.dir/CXXModules.json CMakeFiles/exercise03.dir/exercise03.cpp.obj.modmap: CXX_DYNDEP__exercise03_Debug CMakeFiles/exercise03.dir/exercise03.cpp.obj.ddi | C$:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise03.dir/CXXDependInfo.json
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target exercise03
+
+
+#############################################
+# Link the executable exercise03.exe
+
+build exercise03.exe: CXX_EXECUTABLE_LINKER__exercise03_Debug CMakeFiles/exercise03.dir/exercise03.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\exercise03.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = exercise03.exe
+  TARGET_IMPLIB = libexercise03.dll.a
+  TARGET_PDB = exercise03.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -158,6 +202,8 @@ build exercise01: phony exercise01.exe
 
 build exercise02: phony exercise02.exe
 
+build exercise03: phony exercise03.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -166,7 +212,7 @@ build exercise02: phony exercise02.exe
 #############################################
 # Folder: C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug
 
-build all: phony exercise01.exe exercise02.exe
+build all: phony exercise01.exe exercise02.exe exercise03.exe
 
 # =============================================================================
 # Built-in targets

@@ -25,31 +25,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a172d52e-7636-48ee-8668-891f99d8ade3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c9dbdb5e62ae28c71f96.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T07-26-15-0532.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/target-exercise02-Debug-50378513d609fa2fe869.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise02.dir/CXX.dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise02.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise02.dir/CXXModules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.obj.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.obj.ddi.i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.obj.modmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module03/exercise02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module03/exercise03.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-597b0a10fbd6cc511d2c.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T06-07-48-0072.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c9dbdb5e62ae28c71f96.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T07-26-15-0532.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi.i" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi.i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/exercise01.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/exercise01.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
