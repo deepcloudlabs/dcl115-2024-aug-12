@@ -1,0 +1,24 @@
+critical section -> race -> shared memory: data, text(functions), heap
+mutator threads -> shared memory/resource
+
+multi thread -> thread-safety
+                 i. application
+                ii. resource -> class -> object -> memory
+                                thread-safe
+      thread-safe application
+      thread-safe class
+
+1) Critical Section -> 1 Thread
+   Mutual Exclusion -> Lock-based -> Parking
+   Queue -> Quantum(CPU/Core) -> Queue -> Quantum(CPU/Core) -> Queue
+   Context-switching -> Cost
+    i. voluntary cs
+       high vcs -> low throughput
+   ii. involuntary cs
+   cat /proc/<process id>/status
+   voluntary_ctxt_switches:        456
+   nonvoluntary_ctxt_switches:     6
+   in windows:
+   perfmon
+
+2)
