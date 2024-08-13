@@ -76960,9 +76960,25 @@ namespace std
 # 3 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise02.cpp"
 using namespace std;
 
+class point {
+    const int x,y;
+public:
+    point(int x, int y) : x(x), y(y) {}
+    int get_x() const {
+        return this->x;
+    }
+    int get_y() const {
+        return this->y;
+    }
+    void draw() const {
+        cerr << "drawing the point" << endl;
+    }
+};
+
 class vehicle {
     const double capacity;
     double current_load;
+    mutex m;
 public:
     explicit vehicle(const double capacity) : capacity(capacity) {
         this->current_load = 0;
@@ -76972,11 +76988,13 @@ public:
         return this->capacity;
     }
 
-    double get_current_load() const {
+    double get_current_load() {
+        lock_guard<mutex> lock{m};
         return this->current_load;
     }
 
     double load(double weight) {
+        lock_guard<mutex> lock{m};
         if (weight <= 0.0) return this->current_load;
         if (weight + this->current_load > this->capacity) return this->current_load;
         this->current_load += weight;
@@ -76984,6 +77002,7 @@ public:
     }
 
     double unload(double weight) {
+        lock_guard<mutex> lock{m};
         if (weight <= 0.0) return this->current_load;
         if (weight > this->current_load) return this->current_load;
         this->current_load -= weight;
@@ -76997,6 +77016,7 @@ void transfer_task(vehicle& vehicle1, vehicle& vehicle2){
         vehicle2.load(1);
     }
 }
+
 ostream& operator<<(ostream& os,vehicle& v){
     os << "vehicle[ current_load: " << v.get_current_load()
        << ", capacity: "

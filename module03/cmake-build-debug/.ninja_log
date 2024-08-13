@@ -59,3 +59,9 @@
 249	283	7452379031935291	CMakeFiles/exercise02.dir/exercise02.cpp.obj.modmap	1f0df970a8f0bb20
 284	1772	7452379032286348	CMakeFiles/exercise02.dir/exercise02.cpp.obj	c29e225c53336c9f
 1772	1877	7452379047161046	exercise02.exe	c9f22883b6a1e7bf
+7	278	7452387241531304	CMakeFiles/exercise02.dir/exercise02.cpp.obj.ddi	cf386e8b291c5ac8
+278	323	7452387244238397	CMakeFiles/exercise02.dir/CXX.dd	1f0df970a8f0bb20
+278	323	7452387244238397	C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise02.dir/CXXModules.json	1f0df970a8f0bb20
+278	323	7452387244238397	CMakeFiles/exercise02.dir/exercise02.cpp.obj.modmap	1f0df970a8f0bb20
+325	1874	7452387244712661	CMakeFiles/exercise02.dir/exercise02.cpp.obj	c29e225c53336c9f
+1875	1990	7452387260210093	exercise02.exe	c9f22883b6a1e7bf
