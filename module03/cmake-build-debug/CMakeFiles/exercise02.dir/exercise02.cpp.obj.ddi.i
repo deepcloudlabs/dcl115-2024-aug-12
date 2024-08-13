@@ -1,8 +1,8 @@
-# 0 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise01.cpp"
+# 0 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise02.cpp"
 # 1 "C:\\var\\workspace\\github\\dcl115-2024-aug-12\\module03\\cmake-build-debug//"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise01.cpp"
+# 1 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise02.cpp"
 # 1 "C:/DEVEL/stage/opt/mingw64-14.2.0/include/c++/14.2.0/iostream" 1 3
 # 36 "C:/DEVEL/stage/opt/mingw64-14.2.0/include/c++/14.2.0/iostream" 3
        
@@ -68051,7 +68051,7 @@ namespace std
 # 85 "C:/DEVEL/stage/opt/mingw64-14.2.0/include/c++/14.2.0/iostream" 3
 
 }
-# 2 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise01.cpp" 2
+# 2 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise02.cpp" 2
 # 1 "C:/DEVEL/stage/opt/mingw64-14.2.0/include/c++/14.2.0/thread" 1 3
 # 32 "C:/DEVEL/stage/opt/mingw64-14.2.0/include/c++/14.2.0/thread" 3
        
@@ -76955,43 +76955,66 @@ namespace std
 
 
 }
-# 3 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise01.cpp" 2
+# 3 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise02.cpp" 2
 
-# 3 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise01.cpp"
+# 3 "C:/var/workspace/github/dcl115-2024-aug-12/module03/exercise02.cpp"
 using namespace std;
 
-int global_state = 0;
-mutex m;
-
-void fun(){
-    lock_guard<mutex> lock(m);
-    cerr << "fun is started by the thread "
-         << this_thread::get_id
-         << "." << endl;
-    for (auto i=0;i<1'000'000;++i){
-
-
-        global_state++;
+class vehicle {
+    const double capacity;
+    double current_load;
+public:
+    explicit vehicle(const double capacity) : capacity(capacity) {
+        this->current_load = 0;
     }
-    cerr << "fun is returned by the thread "
-         << this_thread::get_id
-         << "." << endl;
+
+    double get_capacity() const {
+        return this->capacity;
+    }
+
+    double get_current_load() const {
+        return this->current_load;
+    }
+
+    double load(double weight) {
+        if (weight <= 0.0) return this->current_load;
+        if (weight + this->current_load > this->capacity) return this->current_load;
+        this->current_load += weight;
+        return this->current_load;
+    }
+
+    double unload(double weight) {
+        if (weight <= 0.0) return this->current_load;
+        if (weight > this->current_load) return this->current_load;
+        this->current_load -= weight;
+        return this->current_load;
+    }
+};
+
+void transfer_task(vehicle& vehicle1, vehicle& vehicle2){
+    for (int i=0;i<1'000'000;++i){
+        vehicle1.unload(1);
+        vehicle2.load(1);
+    }
 }
+ostream& operator<<(ostream& os,vehicle& v){
+    os << "vehicle[ current_load: " << v.get_current_load()
+       << ", capacity: "
+       << v.get_capacity()
+       << " ]";
+    return os;
+}
+vehicle vehicle1{100'000'000};
+vehicle vehicle2{200'000'000};
 
-int main() {
-    cerr << "global_state: " << global_state << endl;
+int main(){
+    vehicle1.load(100'000'000);
     {
-
-        jthread t1{fun};
-        jthread t2{fun};
-        jthread t3{fun};
-        jthread t4{fun};
-        jthread t5{fun};
-        jthread t6{fun};
-        jthread t7{fun};
-        jthread t8{fun};
-
+        jthread t1{transfer_task,ref(vehicle1),ref(vehicle2)};
+        jthread t2{transfer_task,ref(vehicle1),ref(vehicle2)};
+        jthread t3{transfer_task,ref(vehicle1),ref(vehicle2)};
     }
-    cerr << "global_state: " << global_state << endl;
+    cerr << vehicle1 << endl;
+    cerr << vehicle2 << endl;
     return 0;
 }

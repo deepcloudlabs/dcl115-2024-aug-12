@@ -6,13 +6,13 @@ int global_state = 0; // data
 mutex m;
 
 void fun(){
+    lock_guard<mutex> lock(m);
     cerr << "fun is started by the thread "
          << this_thread::get_id
          << "." << endl;
     for (auto i=0;i<1'000'000;++i){
         // critical section -> race
         // serial execution
-        lock_guard<mutex> lock(m);
         global_state++;
     }
     cerr << "fun is returned by the thread "
@@ -30,6 +30,8 @@ int main() {
         jthread t4{fun};
         jthread t5{fun};
         jthread t6{fun};
+        jthread t7{fun};
+        jthread t8{fun};
         // lock contention
     }
     cerr << "global_state: " << global_state << endl;
