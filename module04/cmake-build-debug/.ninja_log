@@ -1,0 +1,19 @@
+# ninja log v6
+2	260	7452505214270440	CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi	f93a98177d29af32
+261	318	7452505217381224	CMakeFiles/exercise01.dir/CXX.dd	3bd9886bb95ae15e
+261	318	7452505217381224	C:/var/workspace/github/dcl115-2024-aug-12/module04/cmake-build-debug/CMakeFiles/exercise01.dir/CXXModules.json	3bd9886bb95ae15e
+261	318	7452505217381224	CMakeFiles/exercise01.dir/exercise01.cpp.obj.modmap	3bd9886bb95ae15e
+324	1851	7452505217476606	CMakeFiles/exercise01.dir/exercise01.cpp.obj	1c98db75a699aac9
+1853	1968	7452505232773524	exercise01.exe	3139a1aeb90d39a6
+9	482	7452522196707393	CMakeFiles/exercise03.dir/exercise03.cpp.obj.ddi	3c69c85997f1ec5
+482	528	7452522201844275	CMakeFiles/exercise03.dir/CXX.dd	b59863d52aa4cd0b
+482	528	7452522201844275	C:/var/workspace/github/dcl115-2024-aug-12/module04/cmake-build-debug/CMakeFiles/exercise03.dir/CXXModules.json	b59863d52aa4cd0b
+482	528	7452522201844275	CMakeFiles/exercise03.dir/exercise03.cpp.obj.modmap	b59863d52aa4cd0b
+543	2971	7452522202039645	CMakeFiles/exercise03.dir/exercise03.cpp.obj	9fa6cd46e67dfbf0
+2972	3128	7452522226321789	exercise03.exe	929cf98669aa994a
+20	383	7452523044222408	CMakeFiles/exercise03.dir/exercise03.cpp.obj.ddi	3c69c85997f1ec5
+384	425	7452523047870489	CMakeFiles/exercise03.dir/CXX.dd	b59863d52aa4cd0b
+384	425	7452523047870489	C:/var/workspace/github/dcl115-2024-aug-12/module04/cmake-build-debug/CMakeFiles/exercise03.dir/CXXModules.json	b59863d52aa4cd0b
+384	425	7452523047870489	CMakeFiles/exercise03.dir/exercise03.cpp.obj.modmap	b59863d52aa4cd0b
+426	2366	7452523048297697	CMakeFiles/exercise03.dir/exercise03.cpp.obj	9fa6cd46e67dfbf0
+2367	2476	7452523067696797	exercise03.exe	929cf98669aa994a
