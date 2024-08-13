@@ -25,14 +25,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a172d52e-7636-48ee-8668-891f99d8ade3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module03/exercise03.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module03/exercise04.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c9dbdb5e62ae28c71f96.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T07-26-15-0532.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-3df9deb99dbb26d44689.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T08-15-41-0561.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module03/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/cmake-build-debug/build.ninja" afterDir="false" />
