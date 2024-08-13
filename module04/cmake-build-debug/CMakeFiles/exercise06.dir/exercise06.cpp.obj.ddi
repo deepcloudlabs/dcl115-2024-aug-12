@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\exercise06.dir\\exercise06.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
