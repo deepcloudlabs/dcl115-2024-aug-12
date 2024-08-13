@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/exercise05.dir/exercise05.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

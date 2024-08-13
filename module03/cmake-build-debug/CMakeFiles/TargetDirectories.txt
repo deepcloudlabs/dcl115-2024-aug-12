@@ -2,5 +2,8 @@ C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles
 C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise02.dir
 C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise03.dir
 C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise04.dir
+C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise05.dir
+C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise06.dir
+C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/exercise07.dir
 C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/var/workspace/github/dcl115-2024-aug-12/module03/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -21,4 +21,7 @@ multi thread -> thread-safety
    in windows:
    perfmon
 
-2)
+2) thread_local -> every thread has its own resource/memory -> stack
+
+Dining Philosophers
+https://en.wikipedia.org/wiki/Dining_philosophers_problem
