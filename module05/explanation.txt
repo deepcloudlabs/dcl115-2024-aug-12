@@ -1,0 +1,16 @@
+1. variables
+   global shared variables (data/stack/heap) between threads
+   mutation operations (read/write) are not atomic
+   t1 -> write x
+   t2 -> write x
+   t3 -> read x
+   race -> mutex
+2. atomic variables
+
+t1 -> write x
+      write y
+      read z
+
+t2 -> write y
+      write z
+      read x

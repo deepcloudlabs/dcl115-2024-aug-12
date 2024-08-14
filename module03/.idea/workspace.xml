@@ -27,63 +27,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3f9c4d-47f7-4c0c-84db-f56e4475ca30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/module05.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/cache-v2-15f734620395c55abc19.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-1dd88c5f16ad9f88a051.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/target-exercise01-Debug-9a97e6409441ad902670.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/target-exercise02-Debug-50378513d609fa2fe869.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-6372fab9bbf74b5c368e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise01.dir/CXX.dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise01.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise01.dir/CXXModules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi.i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.modmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise02.dir/CXX.dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise02.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise02.dir/CXXModules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.obj.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.obj.ddi.i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise02.dir/exercise02.cpp.obj.modmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/module05.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/exercise01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/exercise02.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module05/exercise03.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../module02/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-45ae9486efd9508efb58.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-14T07-11-41-0801.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/target-exercise04-Debug-c36b5c3d88c0d2b5c583.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/target-exercise05-Debug-3261d68aa0ae66d4c3d8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise04.dir/CXX.dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise04.dir/CXXDependInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise04.dir/CXXModules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise04.dir/exercise04.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise05.dir/CXX.dd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise05.dir/CXXDependInfo.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise05.dir/CXXModules.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.obj.ddi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.obj.ddi.i" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/exercise05.dir/exercise05.cpp.obj.modmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/exercise05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/explanation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../module05/utils.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/explanation.txt" beforeDir="false" afterPath="$PROJECT_DIR$/explanation.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c56cc01713e74833c42e.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-13T13-40-17-0918.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module05/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +178,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723529228981</updated>
-      <workItem from="1723529230464" duration="15320000" />
+      <workItem from="1723529230464" duration="15919000" />
     </task>
     <servers />
   </component>
