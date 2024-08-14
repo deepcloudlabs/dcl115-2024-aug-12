@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles/exercise01.dir/ts_queue.cpp.o",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

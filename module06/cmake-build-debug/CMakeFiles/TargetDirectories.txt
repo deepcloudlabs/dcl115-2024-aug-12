@@ -1,0 +1,3 @@
+C:/var/workspace/github/dcl115-2024-aug-12/module06/cmake-build-debug/CMakeFiles/exercise01.dir
+C:/var/workspace/github/dcl115-2024-aug-12/module06/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/var/workspace/github/dcl115-2024-aug-12/module06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
