@@ -7,17 +7,17 @@ atomic<bool> x{false}; // Data
 atomic<bool> y{false}; // Data
 
 void fun1() {
-    x.store(true);
+    x.store(true,memory_order_release);
 }
 
 void fun2() {
-    while (!x.load());
-    y.store(true);
+    while (!x.load(memory_order_acquire));
+    y.store(true,memory_order_release);
 }
 
 void fun3() {
-    while (!y.load());
-    if (x.load()) {
+    while (!y.load(memory_order_acquire));
+    if (x.load(memory_order_acquire)) {
         cerr << "x and y are all true!" << endl;
     } else {
         cerr << "y is true and x is false!" << endl;
