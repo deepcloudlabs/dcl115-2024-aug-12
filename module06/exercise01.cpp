@@ -11,7 +11,7 @@ mutex m_cerr;
 void fun(int start, int stop) {
     for (auto i = start; i <= stop; ++i) {
         state.push(i);
-        this_thread::sleep_for(2ms);
+        //this_thread::sleep_for(2ms);
     }
 }
 
@@ -23,7 +23,7 @@ void gun(int fetch_size) {
             counter.fetch_add(popped_vale,memory_order_acq_rel);
             cerr << "pop[" << this_thread::get_id() << "]: " << popped_vale << endl;
         }
-        this_thread::sleep_for(1ms);
+        //this_thread::sleep_for(1ms);
     }
 }
 

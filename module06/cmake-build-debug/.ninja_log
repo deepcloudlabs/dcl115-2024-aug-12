@@ -30,3 +30,10 @@
 321	381	7453299736820739	CMakeFiles/exercise01.dir/ts_queue.cpp.obj.modmap	19f289a0224c7bf5
 382	2219	7453299737427870	CMakeFiles/exercise01.dir/exercise01.cpp.obj	c969458fa6f0c85
 2219	2338	7453299755795688	exercise01.exe	7e90a0557c06477a
+6	289	7453300701747625	CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi	63d525a53942d5bb
+289	367	7453300704579046	CMakeFiles/exercise01.dir/CXX.dd	19f289a0224c7bf5
+289	367	7453300704579046	C:/var/workspace/github/dcl115-2024-aug-12/module06/cmake-build-debug/CMakeFiles/exercise01.dir/CXXModules.json	19f289a0224c7bf5
+289	367	7453300704579046	CMakeFiles/exercise01.dir/exercise01.cpp.obj.modmap	19f289a0224c7bf5
+289	367	7453300704579046	CMakeFiles/exercise01.dir/ts_queue.cpp.obj.modmap	19f289a0224c7bf5
+369	2290	7453300705378337	CMakeFiles/exercise01.dir/exercise01.cpp.obj	c969458fa6f0c85
+2290	2408	7453300724593716	exercise01.exe	7e90a0557c06477a
