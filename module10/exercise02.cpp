@@ -1,7 +1,7 @@
 #include <iostream>
 #include <set>
-#include <algorithm>
-#include <numeric>
+#include <parallel/algorithm>
+#include <parallel/numeric>
 
 using namespace std;
 
@@ -12,12 +12,13 @@ std::map<std::string,std::shared_ptr<world::country>> countries;
 int main() {
     create_world();
     set<string> continents;
-    // external loop -> not easy to solve in parallel
-    // imperative
-    continents = accumulate(countries.begin(),countries.end(),set<string>(),[](auto continents,auto& country_pair) -> set<string>{
+    // internal loop -> stl algorithm [accumulate]
+    // functional programming
+    auto continent_reducer = [](auto continents,auto& country_pair) -> set<string>{
         continents.insert(country_pair.second->continent);
         return continents;
-    });
+    };
+    continents = accumulate(countries.begin(),countries.end(),set<string>(),continent_reducer);
     for (auto &continent: continents) {
        cout << continent << endl;
     }

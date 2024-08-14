@@ -12,4 +12,4 @@ since C++17 [data parallelism] parallel algorithm
 functional programming -> STL -> parallel algorithm
 One major disadvantage: memory usage!
 1. since c++20 -> ranges api
-2. coroutine/generator function
+2. coroutine/generator function since c++20, c++23

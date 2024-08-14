@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\exercise04.dir\\city.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}

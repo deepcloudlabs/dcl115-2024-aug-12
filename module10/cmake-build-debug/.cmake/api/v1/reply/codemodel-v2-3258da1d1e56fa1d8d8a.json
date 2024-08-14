@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "module10",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise01-Debug-3c459e52bf4b70afa0ae.json",
+					"name" : "exercise01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise02-Debug-8038a7c58fef6ea3efe9.json",
+					"name" : "exercise02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise03-Debug-efc638ebfd84a758ad37.json",
+					"name" : "exercise03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise04-Debug-727a7c9d0f2edc819f53.json",
+					"name" : "exercise04",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise05::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise05-Debug-3261d68aa0ae66d4c3d8.json",
+					"name" : "exercise05",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise06::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise06-Debug-ab71efbc20665bf6ac37.json",
+					"name" : "exercise06",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise07::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise07-Debug-2b53eff548b748ae5d5f.json",
+					"name" : "exercise07",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "exercise08::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exercise08-Debug-383eaa3a9b5f9a56b840.json",
+					"name" : "exercise08",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/var/workspace/github/dcl115-2024-aug-12/module10/cmake-build-debug",
+		"source" : "C:/var/workspace/github/dcl115-2024-aug-12/module10"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
