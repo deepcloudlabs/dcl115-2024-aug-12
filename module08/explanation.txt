@@ -1,0 +1,23 @@
+Parallel Programming:
+1) Data Parallelism -> CPU-bound
+   Big Data -> Problem -> Multi-threaded/Multi-core
+   Partitioning -> Threads -> Data on different Partition
+   vector -> 16M item/object
+   1) Linear Partition -> 16 logical cpu
+      16 Thread -> 1M partitions
+   2) Split: 2
+            t1      t2
+   16M ->   8M      8M
+          t3 t4   t5 t6
+          4M 4M   4M 4M
+        t7 t8 ...
+        2M 2M ...
+        128K
+   GPU:
+   CUDA(C/C++)    -> nVidia
+   GPU
+   https://developer.nvidia.com/cuda-toolkit
+   OpenCL (C/C++) -> Khronous Group
+   https://www.khronos.org/opencl/
+   Acceleration Card + CPU
+2) Task Parallelism

@@ -3,9 +3,9 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
-  <component name="CMakePresetLoader"><![CDATA[{
-  "useNewFormat": true
-}]]></component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
   <component name="CMakeReloadState">
     <option name="reloaded" value="true" />
   </component>
@@ -27,56 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c3f9c4d-47f7-4c0c-84db-f56e4475ca30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/module07.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/reply/cache-v2-d2f3538742de75c087d5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-8d05e3613b8b62d71f9c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-965404d53b3ea989a3db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/reply/index-2024-08-14T09-28-37-0558.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/reply/target-exercise01-Debug-9cf9b1d5041d1804d406.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-6372fab9bbf74b5c368e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/3.28.6/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/exercise01.dir/CXX.dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/exercise01.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/exercise01.dir/CXXModules.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.ddi.i" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/exercise01.dir/exercise01.cpp.obj.modmap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/module07.dir/CXXDependInfo.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/exercise01.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../module07/ts_atomic_queue.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../module05/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module05/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module07/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,9 +49,9 @@
     <option name="minorVersion" value="1.5" />
     <option name="productBranch" value="Classic" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2kaklos5jt4UY0BePAEjaiqMSWr" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -107,30 +60,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "CMake Application.exercise01.executor": "Run",
-    "CMake Application.exercise02.executor": "Run",
-    "CMake Application.exercise05.executor": "Run",
-    "CMake Application.exercise06.executor": "Run",
-    "CMake Application.exercise07.executor": "Run",
-    "CMake Application.module03.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/var/workspace/github/dcl115-2024-aug-12/module03",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;CMake Application.exercise01.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise02.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise05.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise06.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.exercise07.executor&quot;: &quot;Run&quot;,
+    &quot;CMake Application.module03.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/var/workspace/github/dcl115-2024-aug-12/module03&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\var\workspace\github\dcl115-2024-aug-12\module03" />
@@ -195,7 +148,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1723529228981</updated>
-      <workItem from="1723529230464" duration="15919000" />
+      <workItem from="1723529230464" duration="15923000" />
     </task>
     <servers />
   </component>
