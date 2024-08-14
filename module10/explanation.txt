@@ -1,0 +1,15 @@
+STL -> C++
+1. Container: list, vector, array, deque, set, map, ...
+2. Iterator: generalized pointer
+3. Algorithm: count, count_if, accumulate, search, sort, for_each, ...
+
+#include <numeric>
+#include <algorithm>
+since C++17 [data parallelism] parallel algorithm
+#include <parallel/numeric>
+#include <parallel/algorithm>
+
+functional programming -> STL -> parallel algorithm
+One major disadvantage: memory usage!
+1. since c++20 -> ranges api
+2. coroutine/generator function

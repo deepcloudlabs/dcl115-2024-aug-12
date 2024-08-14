@@ -89,7 +89,8 @@ void sun() {
     this_thread::sleep_for(110ms);
     cerr << "sun() has finished..." << endl;
 }
-
+// Job/Work Stealing Algorithm -> TP
+// https://en.wikipedia.org/wiki/Work_stealing
 int main() {
     cerr << "Application has just started..." << std::endl;
     thread_pool tp{};

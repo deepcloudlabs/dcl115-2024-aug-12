@@ -1,0 +1,9 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/exercise02.dir/exercise02.cpp.obj: dyndep
+
+build CMakeFiles/exercise02.dir/city.cpp.obj: dyndep
+
+build CMakeFiles/exercise02.dir/country.cpp.obj: dyndep
+
+build CMakeFiles/exercise02.dir/world-util.cpp.obj: dyndep
+
