@@ -1,0 +1,11 @@
+{
+"rules": [
+{
+"primary-output": "CMakeFiles\\exercise01.dir\\threadsafe_queue.cpp.obj",
+"requires": [
+]
+}
+],
+"version": 0,
+"revision": 0
+}
